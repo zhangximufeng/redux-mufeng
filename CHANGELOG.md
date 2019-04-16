@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.5](https://github.com/zhangximufeng/redux-mufeng/compare/v2.2.4...v2.2.5) (2019-04-16)
+
+
+
 ## [1.1.1](https://github.com/zhangximufeng/redux-mufeng/compare/v1.1.0...v1.1.1) (2019-04-16)
 
 
