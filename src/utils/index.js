@@ -6,7 +6,7 @@ const mapStateToProps = ({ muState }, muStateKeys) => {
     // 默认返回整个数据对象
     if (!muStateKeys) return { muState };
     const _transferObj = {};
-    MuStateKeys.forEach(key => {
+    muStateKeys.forEach(key => {
         MuState[key] && (_transferObj[key] = MuState[key]);
     })
     return { ..._transferObj };
