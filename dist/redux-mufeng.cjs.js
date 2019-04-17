@@ -139,8 +139,8 @@ var mapStateToProps = function mapStateToProps(_ref, muStateKeys) {
     muState: muState
   };
   var _transferObj = {};
-  MuStateKeys.forEach(function (key) {
-    MuState[key] && (_transferObj[key] = MuState[key]);
+  muStateKeys.forEach(function (key) {
+    muState[key] && (_transferObj[key] = muState[key]);
   });
   return _objectSpread({}, _transferObj);
 };

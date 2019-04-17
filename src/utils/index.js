@@ -7,7 +7,7 @@ const mapStateToProps = ({ muState }, muStateKeys) => {
     if (!muStateKeys) return { muState };
     const _transferObj = {};
     muStateKeys.forEach(key => {
-        MuState[key] && (_transferObj[key] = MuState[key]);
+        muState[key] && (_transferObj[key] = muState[key]);
     })
     return { ..._transferObj };
 };

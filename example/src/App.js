@@ -6,8 +6,8 @@ import FetchUsage from './FetchUsage';
 
 class App extends Component {
   render() {
-    console.log(this.props.MuState);
-    const { count = {} } = this.props.MuState;
+    console.log(this.props.muState);
+    const { count = {} } = this.props.muState;
     const { data: countNum = 0 } = count;
     return (
       <div className="App">
